@@ -1,0 +1,31 @@
+@media (min-width:768) {
+        .bd-masthead .lead {
+    font-size: calc(1.275rem + .3vw);
+    }
+}
+
+@font-face {
+    font-family: Beyonders;
+    src: url(../assets/content/Beyonders.ttf);
+}
+
+.main-content {
+    padding: 3rem 0;
+}
+
+.bd-masthead h1 {
+    font-size: calc(0.2rem + 3.3vw);
+    font-weight: bold;
+    --bs-heading-color: var(--bs-empashis-color);
+}
+
+.bd-gutter {
+    --bs-gutter-x: 3rem;
+}
+
+.ethnocentric {
+    font-family: 'Ethnocentric Rg', sans-serif;
+}
+.beyonders {
+    font-family: 'Beyonders', sans-serif;
+}
